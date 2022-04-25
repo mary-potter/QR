@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/bootstrap-grid.css">
+    <link rel="stylesheet" href="styles/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="styles/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-reboot.css">
+    <link rel="stylesheet" href="styles/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/bootstrap.min.css.map">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-grid.min.css.map">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <title>Қазақстан</title>
+</head>
+<body onclick="close_navbar()">
+    <div class="header1 d-flex flex-row flex-container justify-content-around">
+        <div class="to-center qazaq content-card p-4">
+            <a style="text-decoration: none;"  href="index.html">
+                <h1>QAZAQSTAN</h1>
+                <h1>Respublikasy</h1>
+            </a>
+        </div>
+        <div class="content-card nazarbayev p-4">
+            <p>
+                Мемлекеттік рәміздер – бұл біздің мемлекетіміздің, біздің егемендігіміздің берік негізінің бірі.
+                Олар Тәуелсіздіктің қасиетті біріктіруші образын  білдіреді.
+            </p>
+            <p><b>Н. Ә. Назарбаев</b></p>
+        </div>
+        <div class="to-center content-card p-4"><img id="tu" src="images/tu.jpeg" alt="Tu"></div>
+    </div>
+
+    <div class="menu d-flex flex-row p-2 flex-container bg-info">
+        <div>
+            <nav class="navbar-dark bg-info">
+                <button onclick="navbar_menu()" id="navbar_btn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand col-3" href="index2.html">Қазақстан облыстары</a>
+                <a class="navbar-brand col-3" href="index3.html">Мемлекеттік рәміздер</a>
+                <a class="navbar-brand col-3" href="index4.html">Тарихи мағлұматтар</a>
+                <a class="navbar-brand col-1" href="index5.html">Дәстүрлері мен мәдениеті</a>
+            </nav>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    
+
+    <div class="content">
+        <div class="to_left table_oblystar">
+            <h3 class="content-ramiz" >Форманы толтырыңыз</h3>
+            <hr>
+            <form id="content_form">
+                <div>
+                    <input type="text" class="form-control bg-info" id="inputEmail" placeholder="Аты-жөніңіз">
+                </div>
+                <div>
+                    <input type="email" class="form-control bg-info" id="inputEmail" placeholder="Электронды почта">
+                </div>
+                <div  class="form-control bg-info">
+                    Жас аралығы:
+                    <input type="radio"  name="age" id="age" value="30">1-30
+                    <input type="radio"  name="age" id="age" value="60">31-60
+                    <input type="radio"  name="age" id="age" value="90">60-90
+
+                </div>
+                <div class="form-control bg-info">
+                <label for="topic">Тақырып</label>
+                    <select onchange="change_form()" id="topic" name="topic">
+                        <option value="question">Сұрақтар</option>
+                        <option value="extra_information">Қосымша мәліметтер</option>
+                        <option value="mistakes">Қателіктер</option>
+                        <option value="another">Басқалары</option>
+                    </select>
+                </div>
+                <div id="fileform" class="form-control bg-info">
+                    <label for="formFileMultiple">Файлды жүктеу</label>
+                    <input type="file" id="formFileMultiple" multiple>
+                </div>
+                <div>
+                    <textarea class="form-control bg-info" id="message" placeholder="Хат"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-send bg-info text-light btn-lg">Жіберу</button>
+            </form>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="to-right">
+            <div class="ad">
+                <img id="ad1" src="images/ad1.jpeg" alt="">
+                <div class="ad_btn d-flex flex-row flex-container">
+                    <div id="show_ad1">Көру</div>
+                    <div id="delete_ad1">Өшіру</div>
+                </div>
+                <a class="ad-link" href="#">
+                    <div class="ad-link">
+                        Қызылорда облысының жаңа әкімі кеңесшілерден бас тартты
+                    </div>
+                </a>
+            </div>
+            <div class="ad">
+                <img id="ad2" src="images/ad3.jpeg" alt="">
+                <div class="ad_btn d-flex flex-row flex-container">
+                    <d id="show_ad2">Көру</d>
+                    <div id="delete_ad2">Өшіру</div>
+                </div>
+                <a class="ad-link" href="#">
+                    <div class="ad-link">
+                        Тұрғын үйді субсидиялауға өтініш қабылдау басталды
+                    </div>
+                </a>
+            </div>
+            <div class="ad">
+                <img id="ad3" src="images/ad4.jpg" alt="">
+                <div class="ad_btn d-flex flex-row flex-container">
+                    <d id="show_ad3">Көру</d>
+                    <div id="delete_ad3">Өшіру</div>
+                </div>
+                <a class="ad-link" href="#">
+                    <div class="ad-link">
+                        Тегін сертификат пен грамота алу! Ұстаздарға...
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer bg-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h5><i class="fa fa-road"></i> Qazaqstan Respublikasy</h5>
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="index2.html">Облыстары</a></li>
+                                <li><a href="index4.html">Тарихы</a></li>
+                                <li><a href="index3.html">Рәміздері</a></li>
+                                <li><a href="index5.html">Мәдениеті</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li><a href="index6.html">Сұрақ-жауап</a></li>
+                                <li><a href="">FAQ</a></li>
+                                <li><a href="">Сайт туралы</a></li>
+                                <li><a href="">Жарнама</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-2">
+                    <h5 class="text-md-right">Cұрақ:</h5>
+                    <hr>
+                </div>
+                <div class="col-md-5">
+                    <form id="footer_form">
+                        <input type="text" class="form-control" id="name" placeholder="Аты-жөніңіз">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Электронды почта">
+                        <textarea class="form-control" id="message" placeholder="Хат"></textarea>
+                        <button type="submit" class="btn btn-send bg-light btn-send btn-lg">Жіберу</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="n_menu" class="nav_menu bg-info">
+        <div onclick="close_n_menu()" id="close_btn" class="close_btn">x</div>
+        <div id="name_oblystar" class="list-name">Қазақстан Облыстары</div>
+            <ul id="oblystar" class="list-group bg-info list-group-flush">
+                <li class="list-group-item bg-info">Ақмола облысы (Көкшетау)</li>
+                <li class="list-group-item bg-info">Ақтөбе облысы (Ақтөбе)</li>
+                <li class="list-group-item bg-info">Алматы облысы (Талдықорған)</li>
+                <li class="list-group-item bg-info">Атырау облысы (Атырау)</li>
+                <li class="list-group-item bg-info">Шығыс Қазақстан облысы (Өскемен)</li>
+                <li class="list-group-item bg-info">Жамбыл облысы (Тараз)</li>
+                <li class="list-group-item bg-info">Батыс Қазақстан облысы (Орал)</li>
+                <li class="list-group-item bg-info">Қарағанды облысы (Қарағанды)</li>
+                <li class="list-group-item bg-info">Қостанай облысы (Қостанай)</li>
+                <li class="list-group-item bg-info">Қызылорда облысы (Қызылорда)</li>
+                <li class="list-group-item bg-info">Маңғыстау облысы (Ақтау)</li>
+                <li class="list-group-item bg-info">Павлодар облысы (Павлодар)</li>
+                <li class="list-group-item bg-info">Солтүстік Қазақстан облысы (Петропавл)</li>
+                <li class="list-group-item bg-info">Түркістан облысы (Түркістан)</li>
+            </ul>
+        <div id="name_ramizder"  class="list-name">Рәміздері</div>
+            <ul id="ramizder" class="list-group bg-info list-group-flush">
+                <li class="list-group-item bg-info">Ту</li>
+                <li class="list-group-item bg-info">Елтаңба</li>
+                <li class="list-group-item bg-info">Әнұран</li>
+            </ul>
+        <div id="name_history" class="list-name">Қазақстан тарихы</div>
+            <ul id="history" class="list-group bg-info list-group-flush">
+                <li class="list-group-item bg-info">Ежелгі Қазақстан</li>
+                <li class="list-group-item bg-info">Ортағасырлық Қазақстан</li>
+                <li class="list-group-item bg-info">Ресей империясы құрамындағы Қазақстан</li>
+                <li class="list-group-item bg-info">Кеңес Одағы</li>
+                <li class="list-group-item bg-info">Тәуелсіз Қазақстан</li>
+            </ul>
+        <div id="name_culture" class="list-name">Мәдениет</div>
+            <ul id="culture" class="list-group bg-info list-group-flush">
+                <li class="list-group-item bg-info">Салт-дәстүрлер</li>
+                <li class="list-group-item bg-info">Ырымдар</li>
+                <li class="list-group-item bg-info">Mейрамдар</li>
+            </ul>
+    </div>
+    
+    
+</body>
+
+
+
+
+
+
+
+
+
+
+<script>
+
+    $("#delete_ad1").hide();
+    $("#show_ad1").hide();
+    $("#ad1").click(function(){
+        $("#delete_ad1").toggle();
+        $("#show_ad1").toggle();
+    })
+
+    $("#delete_ad2").hide();
+    $("#show_ad2").hide();
+    $("#ad2").click(function(){
+        $("#delete_ad2").toggle();
+        $("#show_ad2").toggle();
+    })
+
+    $("#delete_ad3").hide();
+    $("#show_ad3").hide();
+    $("#ad3").click(function(){
+        $("#delete_ad3").toggle();
+        $("#show_ad3").toggle();
+    })
+
+
+
+    $("#n_menu").hide();
+    function navbar_menu(){
+        $("#n_menu").slideDown();
+    }
+    function close_n_menu(){
+        $("#n_menu").slideUp();
+    }
+
+    $("#oblystar").hide();
+    $("#name_oblystar").click(function(){
+        $("#oblystar").slideToggle();
+    })
+
+    $("#history").hide();
+    $("#name_history").click(function(){
+        $("#history").slideToggle();
+    })
+
+
+    $("#ramizder").hide();
+    $("#name_ramizder").click(function(){
+        $("#ramizder").slideToggle();
+    })
+
+    $("#culture").hide();
+    $("#name_culture").click(function(){
+        $("#culture").slideToggle();
+    })
+
+
+    $("#fileform").hide();
+
+</script>
+
+
+</html>

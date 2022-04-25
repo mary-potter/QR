@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Open+Sans:wght@400;500;600;700&family=Russo+One&display=swap');
+
+/*font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/
+body {
+    margin: 0;
+    padding: 0;
+}
+.content-card {
+    width: 33%;
+}
+.nazarbayev {
+    font-style: italic;
+    font-size: 14px;
+}
+.qazaq {
+    color: rgb(16, 77, 130);
+}
+
+#tu {
+    width: 70%;
+}
+
+.header1 {
+    text-align: justify;
+}
+.menu {
+    position: sticky;
+    top: 0;
+}
+
+.to-center {
+    text-align: center;
+}
+.arrow {
+    width: 3%;
+    font-size: 100px;
+    color: rgb(3, 110, 146);
+}
+.arrow:hover {
+    cursor: pointer;
+}
+.images {
+    width: 100%;
+}
+.image {
+    width: 100%;
+    height: 50px;
+}
+.main-images {
+    padding: 1%;
+    width: 100%;
+    height: 170px;
+}
+
+.margin_top_h {
+    margin-top: 5%;
+}
+.content-ramiz {
+    margin: 3%;
+    text-align: justify;
+}
+.ramiz_font {
+    font-size: 13px;
+}
+#images1_1{
+    padding-left: 0%;
+}
+#images1_3{
+    padding-right: 0%;
+}
+.second_images {
+    padding: 1% 3%;
+    width: 100%;
+    margin-top: 15px;
+}
+.ahmet {
+    width: 100%;
+}
+.about_Kazakstan {
+    padding: 1% 3%;
+    width: 100%;
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+}
+.table_oblystar {
+    width: 335%;
+}
+
+.to-left {
+    float: left;
+}
+.to-right {
+    float: right;
+    width: 100%;
+}
+.ad-link {
+    padding: 0 5%;
+    width: 90%;
+    text-align: justify;
+    font-size: 12px;
+}
+#ad1 {
+    padding: 0% 5%;
+    width: 90%;
+    padding-top: 1%;
+}
+#ad2 {
+    padding: 0 5%;
+    width: 90%;
+}
+#ad3 {
+    padding: 0 5%;
+    width: 90%;
+}
+.ad_btn{
+    width: 80%;
+    margin: 0% 5%;
+    text-align: center;
+}
+
+#show_ad1, #show_ad2, #show_ad3 {
+    width: 50%;
+    color: rgb(186, 184, 184);
+    background-color: rgb(102, 105, 102);
+}
+#show_ad1:hover, #show_ad2:hover, #show_ad3:hover {
+    color: #ffffff;
+}
+#delete_ad1, #delete_ad2, #delete_ad3 {
+    width: 50%;
+    color: rgb(178, 175, 175);
+    background-color: rgb(102, 105, 102);
+}
+#delete_ad1:hover, #delete_ad2:hover, #delete_ad3:hover {
+    color: white;
+}
+
+
+
+.nav_menu {
+    position: fixed;
+    top: 0px;
+    width: 27%;
+    float: left;
+    height: 100%;
+    font-size: 12px;
+    overflow: scroll;
+}
+
+.list-name {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #ffffff;
+}
+.list-group {
+    margin-left: 10%;
+    color: #ffffff;
+}
+.close_btn {
+    float: right;
+    font-size: 30px;
+    color: white;
+    margin-right: 5%;
+    cursor: pointer;
+}
+#content_form {
+    padding: 3%;
+}
+
+
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  footer {
+    padding-top: 30px;
+    color: #ffffff;
+  }
+  
+  footer a {
+    color: #ffffff;
+    text-decoration:none;
+  }
+  
+  footer a:hover, footer a:focus {
+    color: #ffffff;
+    text-decoration:none;
+    border-bottom:1px dotted #999;
+  }
+  .btn-send {
+      float: right;
+  }
+  .btn_content_form {
+      color: white;
+  }
+  
+  footer .form-control {
+    background-color: #0f3357;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #d1d2d2;
+    padding: 10px 15px;
+    margin-bottom: 2%;
+  }
+
+  #content_form .form-control {
+    border: none;
+    color: #ffffff;
+    padding: 5px 15px;
+    margin-bottom: 2%;
+
+  }
+
+  #content_form .form-control::placeholder {
+      color: white;
+  }
